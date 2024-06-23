@@ -2,7 +2,7 @@
 const app = require("./app.js");
 
 // CONFIGURATION
-require("dotenv").config();
+require("dotenv").config(); // requiring the .env package and configure it.
 const PORT = process.env.PORT;
 
 // LISTEN
